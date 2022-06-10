@@ -69,7 +69,7 @@ def yaapi():
         img = base64.b64encode(f.read())
         f.close()
         params = {"image": img}
-        access_token = '24.44a761d1e59fe1ff2198575d7d58be9a.2592000.1653986576.282335-26139714'
+        access_token = ''
         request_url = url2 + "?access_token=" + access_token
         headers = {'content-type': 'application/x-www-form-urlencoded'}
         time.sleep(float(k/10))
